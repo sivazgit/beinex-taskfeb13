@@ -1,0 +1,30 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.container{
+    .grid{
+        margin-bottom: 100px;
+        display: flex;
+        .row{
+            .col-lg-12.col-sm-12{
+                display: flex;
+            }
+        }
+        .card{
+            width:30%;
+            border: 0.5px solid $color-teritiary;
+            padding: 30px;
+            margin-left:40px;
+            margin-right: 40px;
+            text-align: center;
+            h5{
+                margin-top: 10px;
+            }
+            a{
+                margin-top: 10px;
+                padding: 8px;
+            }
+        }
+    }
+}

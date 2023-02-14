@@ -1,0 +1,62 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+
+.container{
+    margin-bottom: 0;
+    h3{
+        margin-top: 20px;
+        color: $color-primary;
+        font-weight: 700;
+    }
+    .contact{
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        background-image: url(/assets/images/travel.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height:400px;
+    }
+    .left{
+        border: 1px solid purple;
+        border-radius: 10px;
+        background-color: aqua;
+        width:50%;
+        height: 400px;
+
+        h4{
+            margin-top: 10px;
+            margin-left: 10px;
+            font-style: italic;
+        }
+
+        .first,.second{
+            margin-top: 40px;
+            display: flex;
+            padding: 20px;
+
+            label{
+                color:mediumvioletred;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            
+            .inp{
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+        button{
+            margin-left: 200px;
+            background-color:goldenrod;
+            width: 150px;
+            height:30px;
+            border-radius: 5px;
+            padding: 4px;
+        }
+    }
+    
+    
+}

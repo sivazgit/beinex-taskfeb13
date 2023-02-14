@@ -1,0 +1,28 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+
+
+
+.card{
+    .caption{
+        position: fixed;
+        position: absolute;
+        top: 100px;
+        left: 350px;
+        right:350px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        color: $color-primary;
+        font-size:40px;
+
+        &:hover{
+            color: $color-white;
+        }
+    }
+    p{
+        padding: 50px;
+        font-style: italic;
+    }
+}
